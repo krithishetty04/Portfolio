@@ -1,0 +1,114 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background-color: #1E40AF; /* navy blue */
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+header .hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #3B82F6; /* light blue */
+  color: white;
+}
+
+header .hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+header .hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+header .hero .btn {
+  background-color: white;
+  color: #3B82F6;
+  padding: 0.7rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Sections */
+section {
+  padding: 4rem 5%;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1E40AF;
+}
+
+/* Projects */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.project-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #1E40AF;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #1E40AF;
+  color: white;
+}
