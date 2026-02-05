@@ -4,3 +4,4 @@ window.addEventListener("load", () => {
   document.querySelector(".ml").style.width = "65%";
   document.querySelector(".lead").style.width = "90%";
 });
+
