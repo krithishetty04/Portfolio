@@ -6,8 +6,8 @@
 }
 
 body {
-  background: #f9fafb;
-  color: #111;
+  background:182, 47, 42;
+  color:201, 80, 74;
 }
 
 /* NAVBAR */
@@ -26,7 +26,7 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: #111;
+  color:194, 84, 58;
   font-weight: 500;
 }
 
@@ -102,7 +102,7 @@ body {
 
 .bar {
   height: 6px;
-  background: #e5e7eb;
+  background:117, 10, 71;
   border-radius: 10px;
   margin-top: 0.4rem;
 }
@@ -111,7 +111,7 @@ body {
   height: 100%;
   width: 0; /* IMPORTANT for animation */
   border-radius: 10px;
-  background: #facc15;
+  background:46, 15, 80;
   transition: width 1.2s ease-in-out;
 }
 
